@@ -3,7 +3,7 @@
 A macOS-style floating system monitor widget for GNOME Shell 48.  
 Displays live **CPU**, **RAM**, and **Network** metrics with animated sparkline graphs — inspired by btop.
 
-![widget preview](screenshot.png)
+
 
 ## Features
 
