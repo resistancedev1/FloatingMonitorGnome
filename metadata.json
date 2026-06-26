@@ -1,0 +1,9 @@
+{
+    "uuid": "floating-monitor@local",
+    "name": "Floating System Monitor",
+    "description": "A macOS-style floating system monitor widget showing CPU, RAM, and Network with sparkline graphs",
+    "shell-version": ["48"],
+    "version": 2,
+    "url": "",
+    "settings-schema": "org.gnome.shell.extensions.floating-monitor"
+}

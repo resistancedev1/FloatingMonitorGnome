@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.floating-monitor"
+          path="/org/gnome/shell/extensions/floating-monitor/">
+
+    <key name="position-x" type="i">
+      <default>20</default>
+      <summary>Horizontal position (pixels)</summary>
+      <description>
+        X coordinate of the widget on the primary monitor.
+        Set to -1 to auto-position (bottom-right corner).
+        Default: 20 (top-left corner on 1920×1080).
+      </description>
+    </key>
+
+    <key name="position-y" type="i">
+      <default>20</default>
+      <summary>Vertical position (pixels)</summary>
+      <description>
+        Y coordinate of the widget on the primary monitor.
+        Set to -1 to auto-position (bottom-right corner).
+        Default: 20 (top-left corner on 1920×1080).
+      </description>
+    </key>
+
+    <key name="pinned" type="b">
+      <default>true</default>
+      <summary>Pin widget in place</summary>
+      <description>
+        When enabled, the widget cannot be dragged.
+        Disable to freely move the widget.
+      </description>
+    </key>
+
+    <key name="margin" type="i">
+      <default>20</default>
+      <summary>Screen margin (pixels)</summary>
+      <description>
+        Minimum distance from screen edges when auto-positioning
+        or clamping the widget position.
+      </description>
+    </key>
+
+    <key name="update-interval" type="i">
+      <default>1000</default>
+      <summary>Update interval (milliseconds)</summary>
+      <description>
+        How often the metrics are refreshed, in milliseconds.
+        Lower values give smoother graphs but use more CPU.
+      </description>
+    </key>
+
+  </schema>
+</schemalist>
